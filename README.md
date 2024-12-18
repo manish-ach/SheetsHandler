@@ -1,2 +1,2 @@
 # SheetsHandler
-a rust based sheets/csv reader + an automated email sender
+a rust based sheets/csv reader for easier access from terminal

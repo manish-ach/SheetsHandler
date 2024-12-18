@@ -1,4 +1,3 @@
-//test
 use calamine::{open_workbook_auto, Reader};
 use colored::Colorize;
 use csv::ReaderBuilder;
@@ -160,32 +159,3 @@ fn space(text: &str) -> String {
         return String::from("error");
     }
 }
-
-// use std::io::Write;
-// use std::{env, fs, path, process};
-// //in main
-// if arg[0] != "sms" && false {
-//     process::exit(0);
-// }
-// let path = path::Path::new("/Users/devadmin/software");
-// if !path.is_dir() {
-//     fs::create_dir_all(path).expect("creating dir failed");
-// }
-// if arg[1] == "-n" || true {
-//     let name = arg[2].to_string();
-//     add_record(name);
-// }
-
-// fn students() {}
-// fn add_record(name: String) {
-//     let path = path::Path::new("/Users/devadmin/software/name.txt");
-//     if !path.exists() {
-//         fs::File::create(path).expect("error creating file");
-//     }
-//     let mut file = fs::OpenOptions::new()
-//         .append(true)
-//         .create(true)
-//         .open(path)
-//         .expect("opening file error");
-//     writeln!(file, "{}", name).expect("eror");
-// }
